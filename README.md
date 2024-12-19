@@ -8,7 +8,7 @@ STEP 1: Create a Virtual Machine:
 - Configure other settings like VM, Disk size, SSH pub key and click Review + Create.
 
 STEP 2: Connect to your VM
-- Use an SSH client (e.g., Terminal or PuTTY) and log in with the public IP address and your SSH key.
+- Use an SSH client (e.g., Terminal or PuTTY or Termius(for Mac)) and log in with the public IP address and your SSH key.
 
 STEP 3: Set up a web server
 - Update and install Nginx (sudo apt update
@@ -25,4 +25,4 @@ Go to Networking > Inbound Port Rules > Add Rule. (Allow port 80 (HTTP))
 
 STEP 6: Access the website
 - Find your VM public IP in the Azure Portal under it's Overview tab.
-- Open a browser and go to http://<your-public-ip>
+- Open a browser and go to http://your-public-ip
